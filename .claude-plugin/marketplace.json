@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "cofactor-plugins",
+  "owner": {
+    "name": "Canary",
+    "url": "https://trycanary.ai",
+    "email": "support@trycanary.ai"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Canary.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "canary-mcp",
+      "source": {
+        "source": "github",
+        "repo": "TreebeardHQ/cofactor-plugins",
+        "path": "plugins/canary-mcp"
+      },
+      "description": "Drive Canary workflows, test suites, runs, issues, and credentials from Claude Code over MCP.",
+      "version": "0.1.0",
+      "homepage": "https://trycanary.ai/connect",
+      "license": "Proprietary",
+      "category": "qa",
+      "tags": [
+        "qa",
+        "browser-testing",
+        "workflows",
+        "mcp"
+      ]
+    }
+  ]
+}

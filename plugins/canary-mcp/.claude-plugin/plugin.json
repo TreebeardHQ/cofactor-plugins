@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "canary-mcp",
+  "version": "0.1.0",
+  "description": "Drive Canary workflows, test suites, runs, issues, and credentials from Claude Code over MCP.",
+  "author": {
+    "name": "Canary",
+    "url": "https://trycanary.ai",
+    "email": "support@trycanary.ai"
+  },
+  "homepage": "https://trycanary.ai/connect",
+  "documentation": "https://docs.trycanary.ai/integrations/claude",
+  "repository": "https://github.com/TreebeardHQ/cofactor-plugins",
+  "license": "Proprietary",
+  "keywords": ["canary", "qa", "browser-testing", "mcp", "workflows"],
+  "mcpServers": {
+    "canary": {
+      "type": "http",
+      "url": "https://mcp.trycanary.ai/mcp"
+    }
+  }
+}
