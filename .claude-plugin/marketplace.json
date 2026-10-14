@@ -13,11 +13,7 @@
   "plugins": [
     {
       "name": "canary-mcp",
-      "source": {
-        "source": "github",
-        "repo": "TreebeardHQ/cofactor-plugins",
-        "path": "plugins/canary-mcp"
-      },
+      "source": "./plugins/canary-mcp",
       "description": "Drive Canary workflows, test suites, runs, issues, and credentials from Claude Code over MCP.",
       "version": "0.1.0",
       "homepage": "https://trycanary.ai/connect",
