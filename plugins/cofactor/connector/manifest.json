@@ -1,0 +1,44 @@
+{
+  "name": "Cofactor",
+  "tagline": "Browser-driven QA workflows in Claude",
+  "description": "Author, run, and triage Cofactor browser-testing workflows directly from Claude. Surfaces workflows, test suites, runs, issues, and credentials for your organisation.",
+  "homepage": "https://runcofactor.com",
+  "documentation": "https://docs.runcofactor.com/integrations/claude",
+  "support_email": "hello@runcofactor.com",
+  "privacy_policy": "https://runcofactor.com/privacy",
+  "terms_of_service": "https://runcofactor.com/terms",
+  "logo": {
+    "png_512": "https://mcp.runcofactor.com/icon.png"
+  },
+  "mcp": {
+    "server_url": "https://mcp.runcofactor.com/mcp",
+    "transport": "streamable-http",
+    "discovery": {
+      "oauth_authorization_server": "https://mcp.runcofactor.com/.well-known/oauth-authorization-server",
+      "oauth_protected_resource": "https://mcp.runcofactor.com/.well-known/oauth-protected-resource"
+    }
+  },
+  "oauth": {
+    "issuer": "https://mcp.runcofactor.com",
+    "authorization_endpoint": "https://mcp.runcofactor.com/oauth/authorize",
+    "token_endpoint": "https://mcp.runcofactor.com/oauth/token",
+    "registration_endpoint": "https://mcp.runcofactor.com/oauth/register",
+    "revocation_endpoint": "https://mcp.runcofactor.com/oauth/revoke",
+    "supports_dynamic_client_registration": true,
+    "pkce": "S256-required",
+    "scopes": [
+      {
+        "name": "org:full",
+        "description": "Read and write access to the selected Cofactor organisation's workflows, test suites, runs, issues, and credentials."
+      }
+    ]
+  },
+  "tool_groups": [
+    "workflows",
+    "workflow-proposals",
+    "workflow-runs",
+    "test-suites",
+    "credentials",
+    "issues"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "cofactor",
+  "version": "0.1.0",
+  "description": "Drive Cofactor workflows, test suites, runs, issues, and credentials from Claude Code over MCP.",
+  "author": {
+    "name": "Cofactor",
+    "url": "https://runcofactor.com",
+    "email": "hello@runcofactor.com"
+  },
+  "homepage": "https://app.runcofactor.com/connect",
+  "documentation": "https://docs.runcofactor.com/integrations/claude",
+  "repository": "https://github.com/TreebeardHQ/cofactor-plugins",
+  "license": "Proprietary",
+  "keywords": ["cofactor", "qa", "browser-testing", "mcp", "workflows"],
+  "mcpServers": {
+    "cofactor": {
+      "type": "http",
+      "url": "https://mcp.runcofactor.com/mcp"
+    }
+  }
+}
